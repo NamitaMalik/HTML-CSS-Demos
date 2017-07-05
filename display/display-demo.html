@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <style type="text/css">
+  .floating-box {
+    display: inline-block;
+  }
+  
+  .block-a {
+    border-width: 5px;
+    border-style: dotted;
+    border-color: blue;
+    height: 50px;
+    width: 250px;
+  }
+  
+  .block-b {
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    height: 50px;
+    width: 250px;
+  }
+  
+  .parent-block {
+    width: 525px;
+    border: 5px solid grey;
+    height: 60px;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  </style>
+</head>
+
+<body>
+  <div class=" parent-block">
+    <div class="block-a floating-box">
+      Block A
+    </div>
+    <div class="block-b floating-box">
+      Block B
+    </div>
+  </div>
+</body>
+
+</html>
