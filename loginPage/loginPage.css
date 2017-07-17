@@ -1,0 +1,54 @@
+
+.login-box {
+  margin-top: 30%;
+}
+
+.profile-img {
+  width: 306px;
+  height: 80px;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.form-well {
+  background-color: rgba(232, 232, 232, 0.79);
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.modal-header {
+  background-color: #1E6A8D;
+}
+
+.login-btn{
+  background-color:#209AAA;
+}
+
+.login-btn:hover{
+  background-color:#0e7482;
+}
+
+.login-btn:active{
+  background-color:#0e7482 !important;
+}
+
+.icon-color{
+  color:#209AAA;
+}
+
+.input-focus:focus{
+  border-color: #209AAA;
+}
+
+.input-focus:focus{
+  border-color: #209AAA;
+}
