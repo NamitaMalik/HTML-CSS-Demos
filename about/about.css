@@ -1,0 +1,80 @@
+body {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  line-height: 27px;
+  background-color: black;
+  color: white;
+}
+
+.floating-box {
+  display: inline-block;
+}
+
+.text {
+  width: 600px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.image {
+  margin: 7px 0px 0px 50px;
+  height: 307px;
+  width: 300px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  vertical-align: left;
+}
+
+.parent-box {
+  width: 1200px;
+  margin-top: 80px;
+  margin-left: 135px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-background {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-background li {
+  float: left
+}
+
+.nav-background li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-background li a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.nav-background .active {
+  background-color: yellow;
+}
+
+.follow-me {
+  position: fixed;
+  top: 50%;
+  writing-mode: tb-rl;
+  background-color: yellow;
+  padding: 10px;
+  color: black;
+  right: 0.9%;
+}
