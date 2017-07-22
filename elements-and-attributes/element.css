@@ -1,0 +1,17 @@
+table th,td{
+	padding: 5px;
+}
+
+table,th,td {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+table tr:nth-child(even){
+	background-color: #cccccc;
+}
+
+table>tbody>tr:hover{
+	background-color: #E0FFFF;
+	cursor: pointer;
+}

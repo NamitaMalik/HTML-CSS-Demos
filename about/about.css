@@ -17,9 +17,9 @@ body {
 }
 
 .image {
-  margin: 7px 0px 0px 50px;
-  height: 307px;
-  width: 300px;
+  margin: 0 0 0 32%;
+  height: 200px;
+  width: 200px;
 }
 
 img {
@@ -29,9 +29,9 @@ img {
 }
 
 .parent-box {
-  width: 1200px;
-  margin-top: 80px;
-  margin-left: 135px;
+  width: 45%;
+  margin-top: 8%;
+  margin-left: 26%;
 }
 
 nav ul {
@@ -77,4 +77,8 @@ nav ul {
   padding: 10px;
   color: black;
   right: 0.9%;
+}
+
+.rounded{
+  border-radius: 50%
 }
