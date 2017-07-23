@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Colors</title>
+  <style type="text/css">
+  #div1 {
+    height: 100px;
+    border: 1px solid;
+    background: rgba(65, 244, 214, 0.4);
+    line-height: 100px;
+    text-align: center;
+  }
+  
+  #div2 {
+    margin-top: 10px;
+    height: 100px;
+    border: 1px solid;
+    line-height: 100px;
+    text-align: center;
+    background: -webkit-linear-gradient(right, rgba(65, 244, 214, 0.4), rgb(255, 255, 255));
+  }
+  
+  #div3 {
+    margin-top: 10px;
+    height: 100px;
+    border: 1px solid;
+    line-height: 100px;
+    text-align: center;
+    background: -webkit-radial-gradient(right, rgba(65, 244, 214, 0.4), rgb(255, 255, 255));
+  }
+  
+  #div4 {
+    margin-top: 10px;
+    height: 100px;
+    border: 1px solid;
+    line-height: 100px;
+    text-align: center;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @-webkit-keyframes animate {
+    from {
+      color: black;
+      background-color: white;
+    }
+    to {
+      color: white;
+      background-color: black;
+    }
+  }
+  </style>
+</head>
+
+<body>
+  <div id="div1">
+    <span>background: rgba(65, 244, 214, 0.4);</span>
+  </div>
+  <div id="div2">
+    <span>background:-webkit-linear-gradient(right, rgba(65, 244, 214, 0.4), rgb(255, 255, 255));</span>
+  </div>
+  <div id="div3">
+    <span>background: -webkit-radial-gradient(right, rgba(65, 244, 214, 0.4), rgb(255, 255, 255));</span>
+  </div>
+  <div id="div4">
+    <span>Animation</span>
+  </div>
+</body>
+
+</html>
